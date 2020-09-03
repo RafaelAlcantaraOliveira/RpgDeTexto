@@ -1,0 +1,56 @@
+body {
+    background: var(--color-background);
+}
+
+header {
+    background: var(--color-header-and-menu);    
+    height: 7rem;
+    font-size: 1.6rem;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--color-text-secondary);
+    text-shadow: 0.1rem 0.1rem  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.secondary-header {
+    background: var(--color-gray-header-footer);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+
+#choices-img {
+    width: 10rem;
+    height: 10rem;
+
+    
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    color: var(--color-text-secondary);
+    background: var(--color-gray-header-footer);
+    width: 100vw;
+    font-size: 0.8rem;
+    font-weight: bold;
+    height: 1.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}

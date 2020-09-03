@@ -1,0 +1,22 @@
+:root {
+    --color-header-and-menu: #205660;
+    --color-text-secondary: #FAFCE8;
+    --color-gray-header-footer: #54545A;
+    --color-background: #0A131F;
+    --color-blue-background: #BED3E9;
+    --color-yellow-background: #E9D9BE;
+    --color-purple-background: #E9D9BE;
+    --color-blue-button: #54A1F1;
+    --color-yellow-button: #EFAB39;
+    --color-purple-button: #6874E7;
+    --color-blue-button-hoover: #348EED;
+    --color-yellow-button: #EEA01D  ;
+    --color-purple-button: #4858E3;
+
+    font-size: 100%;
+}
+
+html, body {
+    height: 100vh;
+}
+
