@@ -2,7 +2,7 @@ body {
     background: var(--color-background);
 }
 
-header {
+header, header a {
     background: var(--color-header-and-menu);    
     height: 7rem;
     font-size: 1.6rem;
@@ -12,9 +12,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    text-decoration: none;
 
 }
+
 
 .secondary-header {
     background: var(--color-gray-header-footer);
@@ -22,7 +23,6 @@ header {
     align-items: center;
     justify-content: center;
     color: var(--color-text-secondary);
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
     line-height: 1.2rem;
@@ -30,8 +30,8 @@ header {
 
 
 #choices-img {
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
 
     
 }
@@ -51,6 +51,41 @@ footer {
     justify-content: center;
     align-items: center;
    
+}
 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+
+.container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.game-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.game-link-blue {
+    background: var(--color-blue-background);
+    width: 80vw;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    
 
 }
+
+.game-link-blue:hover{
+    background: var(--color-blue-button) ;
+}
+
+

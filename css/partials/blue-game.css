@@ -1,0 +1,49 @@
+.all {
+    padding-bottom: 5rem;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-blue-background);
+    width: 75vw;
+    border-radius: 0.3rem;
+    padding: 2rem;
+    
+    
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 0.6rem;
+    margin-top: 1.2rem;
+}
+
+.btn {
+    background-color: var(--color-blue-button);
+    color: #000;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    width: 70vw;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn:hover{
+    background-color: var(--color-blue-button-hover);
+}
+
+footer {
+    position: relative;
+}
